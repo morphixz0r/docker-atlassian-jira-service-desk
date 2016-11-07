@@ -6,11 +6,11 @@ FROM morphix/debian-jessie-oracle-jdk-8
 ENV JIRA_HOME     /var/atlassian/jira
 ENV JIRA_INSTALL  /opt/atlassian/jira
 ENV JIRA_VERSION  7.1.8
-ENV APP_VERSION   3.2.2
+ENV APP_VERSION   3.2.4
 
 ENV JIRASD_DOWNLOAD_URL https://www.atlassian.com/software/jira/downloads/binary/atlassian-servicedesk-${APP_VERSION}.tar.gz
 
-ENV MYSQL_VERSION 5.1.38
+ENV MYSQL_VERSION 5.1.40
 ENV MYSQL_DRIVER_DOWNLOAD_URL http://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-${MYSQL_VERSION}.tar.gz
 
 # Install Atlassian JIRA and helper tools and setup initial home
