@@ -6,7 +6,7 @@ FROM morphix/debian-jessie-oracle-jdk-8
 ENV JIRA_HOME     /var/atlassian/jira
 ENV JIRA_INSTALL  /opt/atlassian/jira
 ENV JIRA_VERSION  7.1.8
-ENV APP_VERSION   3.2.4
+ENV APP_VERSION   3.2.7
 
 ENV JIRASD_DOWNLOAD_URL https://www.atlassian.com/software/jira/downloads/binary/atlassian-servicedesk-${APP_VERSION}.tar.gz
 
